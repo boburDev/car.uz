@@ -2,6 +2,7 @@ import HeaderCraft from '../header/header'
 import Product from '../product-ads/product'
 import About from '../about/about'
 import './App.css'
+import Advantages from '../advantages/advantages'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
 		<HeaderCraft />
     <Product />
     <About />
+    <Advantages />
     </div>
   )
 }

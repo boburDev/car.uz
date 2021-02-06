@@ -1,0 +1,42 @@
+.advantage-title {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #414042;
+}
+.advantages {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.advantage {
+    text-align: center;
+    padding: 10px;
+}
+
+.advantage h3 {
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 52px;
+    margin: 0;
+}
+
+.advantage h3 span {
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 0px;
+    margin: 0;
+}
+
+.advantage p {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 0px;
+    color: #414042;
+}

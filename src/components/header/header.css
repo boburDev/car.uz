@@ -55,6 +55,13 @@
     background: linear-gradient(92.54deg, #232526 10.17%, #414345 99.75%);
 }
 
+.main-content .body-btn:hover {
+font-family: Raleway;
+font-weight: bold;
+background: linear-gradient(92.54deg, #232526 10.17%, #414345 99.75%);
+cursor: pointer;
+}
+
 .sub-content {
     position: relative;
     margin-right: 40px;
