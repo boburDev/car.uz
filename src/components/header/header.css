@@ -1,0 +1,87 @@
+.header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.bgc-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.header-body-content {
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 40px;
+}
+
+.main-content {
+    width: 56%;
+}
+
+.main-content .body-title {
+    width: 70%;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    color: #414042;
+}
+
+.main-content .body-text {
+    width: 70%;
+    font-family: 'Raleway';
+    font-size: 14px;
+    color: #414042;
+}
+
+.main-content .body-btn {
+    padding: 10px;
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 14px;
+    border: 1px solid #414042;
+    border-radius: 15px;
+    color: #FFFFFF;
+    background: linear-gradient(92.54deg, #232526 10.17%, #414345 99.75%);
+}
+
+.sub-content {
+    position: relative;
+    margin-right: 40px;
+    margin-top: 40px;
+    font-family: 'Raleway';
+    font-size: 14px;
+    color: #414042;
+}
+
+.sub-content .top-icon {
+    position: absolute;
+    top: 40px;
+    left: -20px;
+    display: flex;
+    width: 15px;
+    height: 15px;
+    background-image: url('../../assets/dot.png');
+    background-size: cover;
+}
+
+.sub-content .bottom-icon {
+    position: absolute;
+    top: 25px;
+    right: -100px;
+    display: flex;
+    width: 15px;
+    height: 15px;
+    background-image: url('../../assets/dot.png');
+    background-size: cover;
+}
