@@ -1,5 +1,6 @@
 import HeaderCraft from '../header/header'
 import Product from '../product-ads/product'
+import About from '../about/about'
 import './App.css'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
 		<HeaderCraft />
     <Product />
+    <About />
     </div>
   )
 }

@@ -40,8 +40,8 @@ function Product() {
                     </li>
                     <li className="product">
                         <div className="row-products">
-                            <img width="150" src={product7} alt="product"/>
-                            <img width="150" src={product8} alt="product"/>
+                            <img width="200" src={product7} alt="product"/>
+                            <img width="200" src={product8} alt="product"/>
                         </div>
                         <img src={product9} alt="product"/>
                     </li>
